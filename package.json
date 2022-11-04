@@ -1,0 +1,22 @@
+{
+  "name": "upload-release-asset",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincent-caraccio/upload-release-asset.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vincent-caraccio/upload-release-asset/issues"
+  },
+  "homepage": "https://github.com/vincent-caraccio/upload-release-asset#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1"
+  }
+}

@@ -1,0 +1,21 @@
+name: 'Create Release'
+description: 'Create a GitHub Release'
+inputs:
+  token:
+    name: 'Token'
+    required: true
+  upload_url:
+    name: 'Upload URL'
+    required: true
+  asset_path:
+    name: 'Asset path'
+    required: true
+  asset_name:
+    name: 'Asset name'
+    required: false
+  asset_content_type:
+    name: 'Asset Content Type'
+    required: true
+runs:
+  using: 'node16'
+  main: 'index.js'
