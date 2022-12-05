@@ -1,4 +1,4 @@
-# Get version number
+# Upload release asset
 
 This action extracts the version of the latest release and increments it.
 Result is stored in a environment variable named RELEASE_VERSION.
